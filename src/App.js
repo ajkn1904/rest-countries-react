@@ -16,7 +16,8 @@ function App() {
 function NavBar(){
   return (
     <div>
-     
+      <a style={{textDecoration:"none", margin:"10px", color: "green"}} href="#">Home</a>
+      <a style={{textDecoration:"none", margin:"10px"}} href="#">About</a>
     </div>
   );
 }
