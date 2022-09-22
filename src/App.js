@@ -6,8 +6,18 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+    <NavBar></NavBar>
     <Countries></Countries>
     <Footer></Footer>
+    </div>
+  );
+}
+
+function NavBar(){
+  return (
+    <div>
+      <a style={{textDecoration:"none", margin:"10px"}} href="#">Home</a>
+      <a style={{textDecoration:"none", margin:"10px"}} href="#">About</a>
     </div>
   );
 }
